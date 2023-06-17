@@ -9,7 +9,12 @@
         <h3>Mini Calculadora</h3>
         <div class="calculadora">
             <input type="text" name="operador1" id="op1">
-            +
+            <select id="slop">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="*">*</option>
+            </select>
             <input type="text" name="operador2" id="op2">
             <button onclick="calcular()">Calcular</button>
             <div id="resultado" class="resultado">
